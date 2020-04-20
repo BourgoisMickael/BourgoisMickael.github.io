@@ -1,0 +1,32 @@
+<section id="education" class="entry">
+  <h2 class="entry-title">
+    <span>Formation</span>
+  </h2>
+  <div class="entry-content">
+    {% for education in educations %}
+      <div class="entry-subcontent">
+        <h3 class="diploma">
+          {{ education.studyType }} {{ education.area }}
+        </h3>
+
+        <h4 class="institution">
+          {{ education.institution }}
+        </h4>
+
+        <div class="dates">
+          <span class="startDate">{{ education.startDate | date: "%Y" }}</span>
+          <span>&ndash;</span>
+          <span class="endDate">{{ education.endDate | date: "%Y" | default: 'Present' }}</span>
+        </div>
+
+        {% if education.courses %}
+          <ul class="courses">
+            {% for course in education.courses %}
+              <li>{{ course }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>

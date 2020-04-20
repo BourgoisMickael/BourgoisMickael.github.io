@@ -1,7 +1,16 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: single
 author_profile: true
+classes: wide
+sidebar: true
 ---
+
+{% assign cv = site.data.resume %}
+{% assign works = cv.work %}
+{% assign educations = cv.education %}
+
+<div id="cv">
+  <h1 class="text-center">Développeur Web et étudiant</h1>
+  {% include cv/work.html %}
+  {% include cv/education.html %}
+</div>

@@ -1,0 +1,121 @@
+#cv > .entry {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+
+  .entry-title {
+    text-transform: uppercase;
+    text-align: center;
+    border: 0rem;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    padding: 0rem;
+    line-height: 1rem;
+    color: #2d7788;
+    background-color: rgba(45, 119, 136, 0.75);
+
+    > span {
+      background-color: white;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      background-color: white;
+    }
+  }
+
+  .entry-content {
+    .entry-subcontent {
+      font-size: 85%;
+
+      &:not(:last-child) {
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.75rem;
+        border-bottom: 1px solid #74777a;
+      }
+
+      .position, .diploma {
+        margin: 0rem;
+        font-size: 110%;
+      }
+
+      .company, .dates, .institution {
+        margin: 0rem;
+        color: #74777a;
+        font-size: 100%;
+      }
+
+      .dates, .summary {
+        margin-bottom: 0.5rem;
+      }
+
+      .highlights, .courses {
+        margin: 0rem;
+
+        > li {
+         margin-bottom: 0.25rem;
+         line-height: 1rem;
+
+         &:last-child {
+           margin-bottom: 0rem;
+         }
+       }
+      }
+    }
+  }
+}
+
+.sidebar > .entry {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+
+  .entry-title {
+    font-size: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .entry-content {
+    .entry-subcontent {
+      .languages {
+        list-style-type: none;
+        padding: 0rem;
+        margin: 0rem;
+
+        > li {
+          margin-bottom: 0rem;
+
+          .fluency {
+            opacity: 0.75;
+          }
+        }
+      }
+
+      .skill-name {
+        margin-top: 0.75rem;
+        margin-bottom: 0rem;
+        font-size: 85%;
+      }
+
+      .skill-keywords {
+        list-style-type: none;
+        padding: 0rem;
+        margin: 0rem;
+
+        > li {
+          margin-bottom: 0rem;
+          display: inline-block;
+
+          // Stack Overflow style tag display
+          margin: 2px 2px 2px 0;
+          padding: 4px 5px 5px;
+          font-size: 60%;
+          line-height: 1;
+          text-transform: lowercase;
+          color: #39739d;
+          background-color: #e1ecf4;
+          border: 1px solid transparent;
+          border-radius: 3px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

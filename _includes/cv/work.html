@@ -1,0 +1,34 @@
+<section id="work" class="entry">
+  <h2 class="entry-title">
+    <span>Expériences</span>
+  </h2>
+  <div class="entry-content">
+    {% for work in works  %}
+      <div class="entry-subcontent">
+        <h3 class="position">
+          {{ work.position }}
+        </h3>
+
+        <h4 class="company">
+          {{ work.company }}
+        </h4>
+
+        <div class="dates">
+          <span class="startDate">{{ work.startDate | date: "%B %Y" }}</span>
+          <span>&ndash;</span>
+          <span class="endDate">{{ work.endDate | date: "%B %Y" | default: 'Present' }}</span>
+        </div>
+
+        <p class="summary">
+          {{ work.summary }}
+        </p>
+
+        <ul class="highlights">
+          {% for highlight in work.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>

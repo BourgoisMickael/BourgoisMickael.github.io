@@ -1,0 +1,14 @@
+<section id="languages" class="entry">
+  <h2 class="entry-title">
+    <span>Langues</span>
+  </h2>
+  <div class="entry-content">
+    <div class="entry-subcontent">
+      <ul class="languages">
+        {% for language in languages  %}
+          <li>{{ language.language }} <span class="fluency">({{ language.fluency }})</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
