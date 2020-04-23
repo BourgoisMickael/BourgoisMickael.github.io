@@ -6,11 +6,11 @@ sidebar: true
 ---
 
 {% assign cv = site.data.resume %}
-{% assign works = cv.work %}
-{% assign educations = cv.education %}
 
 <div id="cv">
   <h1 class="text-center">Développeur Web et étudiant</h1>
   {% include cv/work.html %}
   {% include cv/education.html %}
+  {% include cv/languages.html %}
+  {% include cv/skills.html %}
 </div>

@@ -5,7 +5,7 @@
   <div class="entry-content">
     <div class="entry-subcontent">
       <ul class="languages">
-        {% for language in languages  %}
+        {% for language in cv.languages  %}
           <li>{{ language.language }} <span class="fluency">({{ language.fluency }})</span></li>
         {% endfor %}
       </ul>
