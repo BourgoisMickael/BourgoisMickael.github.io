@@ -61,7 +61,7 @@
       "summary": "Développements de nouvelles fonctionnalitées médicales au sein de la messagerie PandaLab.",
       "highlights": [
         "Implémentation d'une fonctionnalité de recherche médicale",
-        "Implémentation d'un CDN (réplication des fichiers, vérification eds droits d'accès)",
+        "Implémentation d'un CDN (réplication des fichiers, vérification des droits d'accès)",
         "Mise en place de tests unitaires et documentation",
         "Autres fonctionnalités: amélioration du temps de login, prévisualisation de fichiers, migrations",
         "Début de refactorisation de l'architecture des micro-services",
