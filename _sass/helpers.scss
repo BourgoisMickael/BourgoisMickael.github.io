@@ -2,3 +2,21 @@
   position: initial !important;
   height: 100% !important;
 }
+
+
+.project_raven-os_gallery {
+  a {
+    max-height: 200px;
+    overflow-y: hidden;
+    margin-bottom: 1em;
+
+    &:hover {
+      filter: brightness(90%);
+      overflow-y: visible;
+    }
+  }
+}
+
+.img65 {
+  width: 65%;
+}
