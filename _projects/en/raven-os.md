@@ -1,6 +1,9 @@
 ---
-title: "Raven-OS"
-excerpt: "Raven-OS est le projet EIP (**E**pitech **I**nnovative **P**roject) auquel j'ai participé lors de mes dernières années d'études à Epitech"
+lang: en
+ref: raven-os
+permalink: /en/projects/raven-os
+title: "EN Raven-OS"
+excerpt: " EN Raven-OS est le projet EIP (**E**pitech **I**nnovative **P**roject) auquel j'ai participé lors de mes dernières années d'études à Epitech"
 header:
   teaser: /assets/images/projects/raven-os/logo_raven_title.png
   #image: /assets/images/projects/raven-os/raven_background.jpg

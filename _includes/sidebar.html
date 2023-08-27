@@ -1,4 +1,9 @@
-{% assign cv = site.data.resume %}
+{% if page.lang == "fr" %}
+  {% assign cv = site.data.resume-fr %}
+{% endif %}
+{% if page.lang == "en" %}
+  {% assign cv = site.data.resume-en %}
+{% endif %}
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
 {% if page.sidebar_not_sticky %}

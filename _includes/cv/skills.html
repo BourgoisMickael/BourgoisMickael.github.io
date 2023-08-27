@@ -1,6 +1,13 @@
 <section id="skills" class="entry">
   <h2 class="entry-title">
-    <span>Compétences</span>
+    <span>
+      {% if page.lang == "fr" %}
+      Compétences
+      {% endif %}
+      {% if page.lang == "en" %}
+      Skills
+      {% endif %}
+    </span>
   </h2>
   <div class="entry-content">
     {% for skill in cv.skills  %}

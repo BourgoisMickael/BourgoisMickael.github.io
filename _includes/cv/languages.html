@@ -1,6 +1,13 @@
 <section id="languages" class="entry">
   <h2 class="entry-title">
-    <span>Langues</span>
+    <span>
+      {% if page.lang == "fr" %}
+      Langues
+      {% endif %}
+      {% if page.lang == "en" %}
+      Languages
+      {% endif %}
+    </span>
   </h2>
   <div class="entry-content">
     <div class="entry-subcontent">

@@ -1,0 +1,14 @@
+{% if page.lang == "fr" %}
+  {% assign cv = site.data.resume-fr %}
+{% endif %}
+{% if page.lang == "en" %}
+  {% assign cv = site.data.resume-en %}
+{% endif %}
+
+<div id="cv">
+  <h1 class="text-center">{{ cv.basics.label }}</h1>
+  {% include cv/work.html %}
+  {% include cv/education.html %}
+  {% include cv/languages.html %}
+  {% include cv/skills.html %}
+</div>

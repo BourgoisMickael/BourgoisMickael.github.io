@@ -1,0 +1,13 @@
+<script>
+    function navigation(final_path) {
+        const lang = window.location.pathname.split("/")[1];
+        window.location.href = `${window.location.origin}/${lang}/${final_path}`;
+    }
+    function changeLang(new_lang) {
+        const lang = window.location.pathname.split("/")[1];
+
+        if (new_lang === lang) return
+
+        window.location.href = `${window.location.origin}${window.location.pathname.replace(new RegExp(`^\/${lang}\/`), `/${new_lang}/`)}`;
+    }
+</script>

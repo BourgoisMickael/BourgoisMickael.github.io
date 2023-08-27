@@ -1,0 +1,208 @@
+{
+  "basics": {
+    "name": "Mickael BOURGOIS",
+    "label": "FR Développeur web et étudiant",
+    "email": "mickael.bourgois@epitech.eu",
+    "website": "https://bourgoismickael.github.io",
+    "location": {
+      "city": "Nancy",
+      "countryCode": "FR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mickael-bourgois",
+        "url": "https://www.linkedin.com/in/mickael-bourgois/"
+      },
+      {
+        "network": "GitHub",
+        "username": "BourgoisMickael",
+        "url": "https://github.com/BourgoisMickael"
+      },
+      {
+        "network": "GitLab",
+        "username": "mickael.bourgois",
+        "url": "https://gitlab.com/mickael.bourgois"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "PandaLab SAS",
+      "location": "Nancy",
+      "position": "Développeur web",
+      "website": "https://www.pandalab.fr/",
+      "startDate": "2019-07-01",
+      "endDate": "2020-02-28",
+      "summary": "Développements de nouvelles fonctionnalitées médicales au sein de la messagerie PandaLab.",
+      "highlights": [
+        "Refactorisation de l'architecture de plusieurs micro-services",
+        "Tests unitaires et d'intégration",
+        "Implémentation d'un diagramme de décision sous forme de questionnaires"
+      ]
+    },
+    {
+      "company": "Epitech",
+      "position": "Professeur de C et C++",
+      "website": "https://www.epitech.eu/",
+      "startDate": "2019-10-01",
+      "endDate": "2020-02-01",
+      "summary": "Formateur occasionnel (Octobre 2019 et Janvier 2020)",
+      "highlights": [
+        "Accompagnement des étudiants de 1ère année et 2ème année lors de leurs période de formation intensive."
+      ]
+    },
+    {
+      "company": "PandaLab SAS",
+      "position": "Développeur web",
+      "website": "https://www.pandalab.fr/",
+      "startDate": "2018-05-01",
+      "endDate": "2018-10-01",
+      "summary": "Développements de nouvelles fonctionnalitées médicales au sein de la messagerie PandaLab.",
+      "highlights": [
+        "Implémentation d'une fonctionnalité de recherche médicale",
+        "Implémentation d'un CDN (réplication des fichiers, vérification des droits d'accès)",
+        "Mise en place de tests unitaires et documentation",
+        "Autres fonctionnalités: amélioration du temps de login, prévisualisation de fichiers, migrations",
+        "Début de refactorisation de l'architecture des micro-services",
+        "Outils utilisés: Javascript, Node.js, Vue.js, MongoDB, Express.js"
+      ]
+    },
+    {
+      "company": "BigInt",
+      "position": "Développeur web | Part-time",
+      "website": "https://bigint.fr/",
+      "startDate": "2017-10-01",
+      "endDate": "2018-03-01",
+      "summary": "Développement web backend (PHP et Go)",
+      "highlights": [
+        "Implémentation de fonctionnalitées sur une API",
+        "Développement de tests unitaires",
+        "Code review",
+        "Correction de bugs",
+        "Amélioration du temps de gestion des requêtes de connection (thread pool)",
+        "Outils utilisés: PHP, SlimFramework, API Google Maps, Go"
+      ]
+    },
+    {
+      "company": "Ezbeez",
+      "position": "Développeur web | Stage",
+      "website": "https://bigint.fr/",
+      "startDate": "2016-04-01",
+      "endDate": "2016-06-01",
+      "summary": "Mission: Permettre à l'applicatif d'Ezbeez de communiquer avec ses services extérieurs",
+      "highlights": [
+        "Gestion des SMS entrants (mise à jour de la fiche client sur le CRM)",
+        "Etude comparative de CRM",
+        "Migration de données MongoDB pour mettre en place de la replication",
+        "Gestion des appels entrants (ouverture automatique de la fiche client / formulaire d'ajout)",
+        "Alimentation du CRM depuis le backend (gestionnaire de queue RabbitMQ)",
+        "Outils utilisés: Pentaho Data Integration, Go, PHP / Symfony, gestionnaire de queue RabbitMQ, MongoDB, Git, CRM"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Epitech",
+      "area": "Expert en Technologies de l'Information",
+      "studyType": "Master",
+      "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
+      "courses": []
+    },
+    {
+      "institution": "California State University Long Beach",
+      "area": "American Language Institute & Study Abroad",
+      "studyType": "",
+      "startDate": "2018-10-01",
+      "endDate": "2019-06-01",
+      "courses": [
+        "American Language Institute",
+        "Network and Network Security",
+        "Computer Forensics",
+        "Persuasive Speaking",
+        "Fundamentals of Economics",
+        "Surf"
+      ]
+    },
+    {
+      "institution": "Université de Metz",
+      "area": "Informatique",
+      "studyType": "DUT",
+      "startDate": "2014-01-01",
+      "endDate": "2016-01-01",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Langages",
+      "keywords": [
+        "Javascript",
+        "C",
+        "C++",
+        "Java",
+        "PHP",
+        "Python",
+        "Go",
+        "Android"
+      ]
+    },
+    {
+      "name": "Developement web",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Vue.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Base de donnée",
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Ansible",
+        "Bash",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Autre",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Android"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Courant"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Courant"
+    },
+    {
+      "language": "Allemand",
+      "fluency": "Scolaire"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "lastModified": "2020-04-21"
+  }
+}
