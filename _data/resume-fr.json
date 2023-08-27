@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Mickael BOURGOIS",
-    "label": "FR Développeur web et étudiant",
+    "label": "Développeur Backend",
     "email": "mickael.bourgois@epitech.eu",
     "website": "https://bourgoismickael.github.io",
     "location": {
@@ -38,7 +38,8 @@
       "highlights": [
         "Refactorisation de l'architecture de plusieurs micro-services",
         "Tests unitaires et d'intégration",
-        "Implémentation d'un diagramme de décision sous forme de questionnaires"
+        "Implémentation d'un diagramme de décision sous forme de questionnaires",
+        "Outils utilisés: Javascript, Node.js, Vue.js, MongoDB"
       ]
     },
     {
@@ -136,16 +137,27 @@
   ],
   "skills": [
     {
+      "name": "AWS",
+      "keywords": [
+        "Serverless",
+        "SAM",
+        "CloudFormation",
+        "Lambda",
+        "ApiGateway",
+        "DynamoDB",
+        "Glue",
+        "Cognito",
+        "S3"
+      ]
+    },
+    {
       "name": "Langages",
       "keywords": [
         "Javascript",
         "C",
         "C++",
-        "Java",
-        "PHP",
         "Python",
-        "Go",
-        "Android"
+        "Go"
       ]
     },
     {
@@ -164,8 +176,7 @@
         "SQL",
         "PostgreSQL",
         "MySQL",
-        "MongoDB",
-        "Redis"
+        "MongoDB"
       ]
     },
     {
@@ -182,8 +193,7 @@
       "keywords": [
         "Git",
         "GitHub",
-        "GitLab",
-        "Android"
+        "GitLab"
       ]
     }
   ],
@@ -195,14 +205,10 @@
     {
       "language": "Anglais",
       "fluency": "Courant"
-    },
-    {
-      "language": "Allemand",
-      "fluency": "Scolaire"
     }
   ],
   "meta": {
     "version": "1.0.0",
-    "lastModified": "2020-04-21"
+    "lastModified": "2020-08-27"
   }
 }

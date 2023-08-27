@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Mickael BOURGOIS",
-    "label": "EN Développeur web et étudiant",
+    "label": "Backend Developer",
     "email": "mickael.bourgois@epitech.eu",
     "website": "https://bourgoismickael.github.io",
     "location": {
@@ -30,58 +30,57 @@
     {
       "company": "PandaLab SAS",
       "location": "Nancy",
-      "position": "Développeur web",
+      "position": "Web developer",
       "website": "https://www.pandalab.fr/",
       "startDate": "2019-07-01",
       "endDate": "2020-02-28",
-      "summary": "Développements de nouvelles fonctionnalitées médicales au sein de la messagerie PandaLab.",
+      "summary": "Development of features for a medical messaging application.",
       "highlights": [
-        "Refactorisation de l'architecture de plusieurs micro-services",
-        "Tests unitaires et d'intégration",
-        "Implémentation d'un diagramme de décision sous forme de questionnaires"
+        "Refactoring the architecture of micro-services",
+        "Unit tests and integration tests",
+        "Decision diagram",
+        "Used tools: Javascript, Node.js, Vue.js, MongoDB"
       ]
     },
     {
       "company": "Epitech",
-      "position": "Professeur de C et C++",
+      "position": "C and C++ professor",
       "website": "https://www.epitech.eu/",
       "startDate": "2019-10-01",
       "endDate": "2020-02-01",
-      "summary": "Formateur occasionnel (Octobre 2019 et Janvier 2020)",
+      "summary": "Occasional trainer (October 2019 and January 2020)",
       "highlights": [
-        "Accompagnement des étudiants de 1ère année et 2ème année lors de leurs période de formation intensive."
+        "Support for 1st and 2nd year students during their intensive training period"
       ]
     },
     {
       "company": "PandaLab SAS",
-      "position": "Développeur web",
+      "position": "Web developer",
       "website": "https://www.pandalab.fr/",
       "startDate": "2018-05-01",
       "endDate": "2018-10-01",
-      "summary": "Développements de nouvelles fonctionnalitées médicales au sein de la messagerie PandaLab.",
+      "summary": "Development of features for a medical messaging application",
       "highlights": [
-        "Implémentation d'une fonctionnalité de recherche médicale",
-        "Implémentation d'un CDN (réplication des fichiers, vérification des droits d'accès)",
-        "Mise en place de tests unitaires et documentation",
-        "Autres fonctionnalités: amélioration du temps de login, prévisualisation de fichiers, migrations",
-        "Début de refactorisation de l'architecture des micro-services",
-        "Outils utilisés: Javascript, Node.js, Vue.js, MongoDB, Express.js"
+        "Medical research functionality using PubMed's API",
+        "Implementation of a CDN (files replication, access rights verification)",
+        "Refactoring micro-services architecture",
+        "Used tools: Javascript, Node.js, Vue.js, MongoDB"
       ]
     },
     {
       "company": "BigInt",
-      "position": "Développeur web | Part-time",
+      "position": "Web development internship",
       "website": "https://bigint.fr/",
       "startDate": "2017-10-01",
       "endDate": "2018-03-01",
-      "summary": "Développement web backend (PHP et Go)",
+      "summary": "Backend web development",
       "highlights": [
-        "Implémentation de fonctionnalitées sur une API",
-        "Développement de tests unitaires",
+        "Implement features on an API",
+        "Setup unit tests",
         "Code review",
-        "Correction de bugs",
-        "Amélioration du temps de gestion des requêtes de connection (thread pool)",
-        "Outils utilisés: PHP, SlimFramework, API Google Maps, Go"
+        "Bugfix",
+        "Improve login requests latency (thread pool)",
+        "Used tools: PHP, SlimFramework, API Google Map, Go"
       ]
     },
     {
@@ -90,22 +89,22 @@
       "website": "https://bigint.fr/",
       "startDate": "2016-04-01",
       "endDate": "2016-06-01",
-      "summary": "Mission: Permettre à l'applicatif d'Ezbeez de communiquer avec ses services extérieurs",
+      "summary": "Implemented communication between multiple external services",
       "highlights": [
-        "Gestion des SMS entrants (mise à jour de la fiche client sur le CRM)",
-        "Etude comparative de CRM",
-        "Migration de données MongoDB pour mettre en place de la replication",
-        "Gestion des appels entrants (ouverture automatique de la fiche client / formulaire d'ajout)",
-        "Alimentation du CRM depuis le backend (gestionnaire de queue RabbitMQ)",
-        "Outils utilisés: Pentaho Data Integration, Go, PHP / Symfony, gestionnaire de queue RabbitMQ, MongoDB, Git, CRM"
+        "Handle incoming SMS (update client's file in the CRM)",
+        "CRM comparative analysis",
+        "Migrate data from MongoDB to setup replication",
+        "Handle incoming calls (automatically open client's file / new client form)",
+        "Feed the CRM from the backend (queue RabbitMQ)",
+        "Used tools: Go, PHP / Symfony, RabbitMQ, MongoDB, Git, CRM"
       ]
     }
   ],
   "education": [
     {
       "institution": "Epitech",
-      "area": "Expert en Technologies de l'Information",
-      "studyType": "Master",
+      "area": "Information Technology Expert",
+      "studyType": "Master (5 years diploma)",
       "startDate": "2016-01-01",
       "endDate": "2020-01-01",
       "courses": []
@@ -127,8 +126,8 @@
     },
     {
       "institution": "Université de Metz",
-      "area": "Informatique",
-      "studyType": "DUT",
+      "area": "Computer Science",
+      "studyType": "DUT (2 years diploma)",
       "startDate": "2014-01-01",
       "endDate": "2016-01-01",
       "courses": []
@@ -136,20 +135,31 @@
   ],
   "skills": [
     {
-      "name": "Langages",
+      "name": "AWS",
+      "keywords": [
+        "Serverless",
+        "SAM",
+        "CloudFormation",
+        "Lambda",
+        "ApiGateway",
+        "DynamoDB",
+        "Glue",
+        "Cognito",
+        "S3"
+      ]
+    },
+    {
+      "name": "Languages",
       "keywords": [
         "Javascript",
         "C",
         "C++",
-        "Java",
-        "PHP",
         "Python",
-        "Go",
-        "Android"
+        "Go"
       ]
     },
     {
-      "name": "Developement web",
+      "name": "Web development",
       "keywords": [
         "Node.js",
         "Express.js",
@@ -159,13 +169,12 @@
       ]
     },
     {
-      "name": "Base de donnée",
+      "name": "Databases",
       "keywords": [
         "SQL",
         "PostgreSQL",
         "MySQL",
-        "MongoDB",
-        "Redis"
+        "MongoDB"
       ]
     },
     {
@@ -178,31 +187,26 @@
       ]
     },
     {
-      "name": "Autre",
+      "name": "Other",
       "keywords": [
         "Git",
         "GitHub",
-        "GitLab",
-        "Android"
+        "GitLab"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Français",
+      "language": "French",
       "fluency": "Courant"
     },
     {
-      "language": "Anglais",
-      "fluency": "Courant"
-    },
-    {
-      "language": "Allemand",
-      "fluency": "Scolaire"
+      "language": "English",
+      "fluency": "Fluent"
     }
   ],
   "meta": {
     "version": "1.0.0",
-    "lastModified": "2020-04-21"
+    "lastModified": "2023-08-27"
   }
 }
