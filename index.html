@@ -6,5 +6,6 @@ sidebar: true
 sidebar_not_sticky: true
 ---
 <script>
-  window.location.href = window.location.href += "/en"
+  const slash = window.location.href.endsWith('/');
+  window.location.href = window.location.href += `${slash ? '' : '/'}en`;
 </script>
