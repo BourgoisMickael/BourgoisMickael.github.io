@@ -2,8 +2,8 @@
 lang: en
 ref: raven-os
 permalink: /en/projects/raven-os
-title: "EN Raven-OS"
-excerpt: " EN Raven-OS est le projet EIP (**E**pitech **I**nnovative **P**roject) auquel j'ai participé lors de mes dernières années d'études à Epitech"
+title: "Raven-OS"
+excerpt: "Raven-OS is the EIP (**E**pitech **I**nnovative **P**roject) project that I've worked on during my last years at Epitech"
 header:
   teaser: /assets/images/projects/raven-os/logo_raven_title.png
   #image: /assets/images/projects/raven-os/raven_background.jpg
@@ -15,111 +15,112 @@ header:
 gallery:
   - url: /assets/images/projects/raven-os/manifest_create.png
     image_path: /assets/images/projects/raven-os/manifest_create.png
-    alt: Vue de création de manifest
-    title: Crée un manifest
+    alt: View manifest creation
+    title: Create a manifest
   - url: /assets/images/projects/raven-os/manifest_get.png
     image_path: /assets/images/projects/raven-os/manifest_get.png
-    alt: Vue de détails d'un manifest
-    title: Détails d'un manifest
+    alt: View manifest's details
+    title: Manifest's details
   - url: /assets/images/projects/raven-os/manifest_list.png
     image_path: /assets/images/projects/raven-os/manifest_list.png
-    alt: Vue de liste des manifests
-    title: Liste des manifests
+    alt: View manifests lists
+    title: Manifests list
   - url: /assets/images/projects/raven-os/build_get.png
     image_path: /assets/images/projects/raven-os/build_get.png
-    alt: Vue de détails d'une compilation
-    title: Détails d'une compilation
+    alt: View compilation details
+    title: Details of a compilation
   - url: /assets/images/projects/raven-os/build_list.png
     image_path: /assets/images/projects/raven-os/build_list.png
-    alt: Vue de liste des compilations
-    title: Liste des compilations
+    alt: View compilation list
+    title: Compilation list
   - url: /assets/images/projects/raven-os/admin_panel.png
     image_path: /assets/images/projects/raven-os/admin_panel.png
-    alt: Vue du panel d'administration
-    title: Panel d'administration
+    alt: View admin panel
+    title: Admin panel
 ---
 # Introduction
 
-Raven est un système d’exploitation innovant et configurable qui cherche à s’adapter aux
-besoins de tous ses utilisateurs.
+Raven is an innovative and configurable operating system that seeks to adapt to user's needs.
 
-Pour mener ce projet sur deux ans, nous étions une équipe de 16 membres. Au sein d'une plus petite équipe de 3 membres en charge de la partie web, j'ai notamment développé le sous projet [**build-raven-os-org**](https://github.com/raven-os/build-raven-os-org){:target="_blank"}.
+To carry out this projects in two years, we were a team of 16 members. Within a smaller team of 3 members in charge of the web part, I've developed the sub-project [**build-raven-os-org**](https://github.com/raven-os/build-raven-os-org){:target="_blank"}.
 
-Mon rôle était de développer le back end et faire l'intégration avec le front end, un autre membre du groupe s'occupait de faire le design et la mise en page du site.
+My task was to develop the back end and to integrate with the front end, another membre of the group took care of the design
+and the layout of the website.
 
-# Contexte
+# Context
 
-Raven-OS est composé de plusieurs sous projets, (voir [github](https://github.com/raven-os){:target="_blank"}). Les sous projets en relation avec le service **build-raven-os-org** sont:
+Raven-OS is composed of several sub-projects, (see [github](https://github.com/raven-os){:target="_blank"}).
+Sub-projects linked to the service  **build-raven-os-org** are:
 
-- un gestionnaire de packet: [**nest**](https://github.com/raven-os/nest){:target="_blank"}
-- un serveur de packet: [**nest-server**](https://github.com/raven-os/nest-server){:target="_blank"}
-- un outil pour compiler des packets: [**nbuild**](https://github.com/raven-os/nbuild){:target="_blank"}
+- a package manager: [**nest**](https://github.com/raven-os/nest){:target="_blank"}
+- a package server: [**nest-server**](https://github.com/raven-os/nest-server){:target="_blank"}
+- a package compilation tool: [**nbuild**](https://github.com/raven-os/nbuild){:target="_blank"}
 
-Pour contributer au système et créer des nouveaux packets disponible pour tout les utilisateurs il faut:
+To contribute to the system and create new packages available for all the users, it's necessary to:
 
-- écrire un **manifest de compilation**
-- passer le manifest à **nbuild** pour compiler les packets
-- envoyer les packets compilés sur **nest-server**
+- write a **compilation manifest**
+- send the manifest to **nbuild** to compile packages
+- send the compiled packages to **nest-server**
 
 # Description
 
-[**build-raven-os-org**](https://github.com/raven-os/build-raven-os-org){:target="_blank"} est une interface web qui permet aux collaborateurs de:
-  - Upload ou écrire des manifests de compilation
-  - Mettre un jour un manifest de compilation
-  - Lister l'historique de modification d'un manifest
-  - Programmer une compilation avec un ou plusieurs manifests
-  - Suivre la compilation en temps réel
-  - Automatiser l'envoi des packets compilés vers **nest-server**
+[**build-raven-os-org**](https://github.com/raven-os/build-raven-os-org){:target="_blank"} is a web interface that allows collaborators to: 
 
+  - Upload or write compilation manifests
+  - Update a compilation manifest
+  - List a manfest's modifications history
+  - Program a compilation with one or more manifests
+  - Follow the compilaion in real-time
+  - Automate sending compiled packages to **nest-server**
 
-Pour cela le site dispose :
-  - d'un systeme de compte utilisateur
-  - un panel d'administration avec envoi d'email d'invitation
-  - une gestion des droits d'accès
+For this, the website has:
+  - a user account system
+  - an admin panel with invitation email sending
+  - access right manager
 
-### Démonstration
+### Demonstration
 
-{% include gallery caption="Capture d'écran des différentes pages" class="project_raven-os_gallery" %}
+{% include gallery caption="Screenshots of several pages" class="project_raven-os_gallery" %}
 
-# Détails techniques
+# Technical details
 
-### Les technologies utilisés
+### Technologies used
 
-Les outils utilisés sont `Node.js`, `Vue.js`, `PostgreSQL`, `RabbitMQ`, `Docker`, `Mocha`.
-Le language `Rust` été utilisé au début pour l'api mais étant trop récent, nous avons migré sur `Node.js`.
-L'API utilise `Express.js` ainsi que l'ORM `Bookshelf` et pour gérer les configuration la librairie `convict`.
+Technologies used are `Node.js`, `Vue.js`, `PostgreSQL`, `RabbitMQ`, `Docker`, `Mocha`.
+The language `Rust` was used at the beginning for the API but the language was too recent, so we've migrated to `Node.js`.
+The API use `Express.js` as well as the ORM `Bookshelf` and to handle configuration, the library `convict`.
 
-### Diagramme d'interactions entre les services
+### Diagram of interactions between services
 
-[![Diagramme d'interactions entre les services](/assets/images/projects/raven-os/diagram_interactions.png "Diagramme d'interactions entre les services")](/assets/images/projects/raven-os/diagram_interactions.png "Diagramme d'interactions entre les services")
+[![Diagram of interactions between services](/assets/images/projects/raven-os/diagram_interactions.png "Diagram of interactions between services")](/assets/images/projects/raven-os/diagram_interactions.png "Diagram of interactions between services")
 
-### Les ressources
+### The resources
 
-Les données sont limitées à quatre type de ressources:
+Datas are limited to four type of resources:
 
-  - **manifest** utilisés pour décrire un packet et comment le compiler
-  - **build** pour décrire une compilation
-  - **user** qui crée et maintient des **manifests** et programme des compilations
-  - **invitation** pour inscrire des nouveaux **users**, seul un administrateur peut en créer
+  - **manifest** used to describe a package and how to compile it
+  - **build** to describe a compilation
+  - **user** who creates and maintains **manifests** and program compilations
+  - **invitation** to sign in new **users**, only an admin can create one
 
-### Architecture de l'API
+### API Architecture
 
-[![Diagramme de l'architecture de l'API](/assets/images/projects/raven-os/diagram_api_architecture.png "Diagramme de l'architecture de l'API"){: .img65 .align-center }](/assets/images/projects/raven-os/diagram_api_architecture.png "Diagramme de l'architecture de l'API")
+[![API Architecture Diagram](/assets/images/projects/raven-os/diagram_api_architecture.png "API Architecture Diagram"){: .img65 .align-center }](/assets/images/projects/raven-os/diagram_api_architecture.png "API Architecture Diagram")
 
-- **Application**: Contient tout les objets du serveur. Instancie tout les modules en s'envoyant comme contexte pour simplifié l'injection de dépendances. Initialise le **mailer**, la **database**, la **queue**, lance les **migrations** et démarre le serveur web.
-- **Session**: Middleware qui authentifie les requêtes entrantes via un cookie. Contient la définition d'autre middlewares qui vérifient que l'utilisateur est connecté ou non, si la requête vient du *builder* ou si l'utilisateur est un administrateur.
-- **Routing**: Map chaque endpoint à une **action** et ajoute des middlewares de **session** sur chaque routes pour vérifier les permissions.
-- **Action**: Point d'entrée logique de la requête dans l'API. Découpée en deux sous entitée:
-  - **sanitization / validation**: assure le bon format des données d'entrée.
-  - **handler**: gére la requête en appelant le **controller**.
-- **Controller**: Contrôle l'intégrité de l'action (par example, pour effectuer une action sur un manifest il faut être admin ou en être le mainteneur) puis envoie des requêtes à la **database** la plupart du temps ou à d'autres services en fonction de l'action.
-- **Database**: Implémentation de l'ORM Bookshelf. Pour améliorer la robusté de l'application, lors de la connection à postgres le nombre de tentatives de connection ainsi que l'interval entre les tentatives est configurable.
-- **Queue**: Wrapper de `amqplib` utilisé pour communiquer avec `RabbitMQ` pour envoyer des messages au builder lors de la création d'une compilation.
-- **WebSocket**: Server qui liste tout les clients qui se connectent et broadcast des messages lors d'une compilation pour fournir des logs en temps réel.
-- **Mailer**: Utilise la librairie `nodemailer` pour envoyer des emails d'invitation ou reset un mot de passe.
+- **Application**: Contains all objects. Instantiate all the modules by sending itself as the context to simplify dependency injection. Initialize **mailer**, **database**, **queue**, trigger **migrations** and start the web server.
+- **Session**: Middleware that authenticate incoming requests via a cookie. Contains definition of other middlewares that check if a user is connected or not, if the request comes from the *builder* or if the user is an administrator.
+- **Routing**: Maps each endpoint to a **action** and add middlewares from **session** on each route to check permissions.
+- **Action**: Logical entrypoint of the request to the API. Split in two sub entities:
+  - **sanitization / validation**: ensures data in correctly formatted.
+  - **handler**: handles the request by calling a **controller**.
+- **Controller**: Controls the integrity of the action (for example, to execute an action on a manifest, one must be an admin or the manifest's maintainer) then sends requests to the **database** most of the time or to other services based on the action.
+- **Database**: Implementation of the Bookshelf ORM. To improve robustness of the application, when a connection to postgres happens, the number of retry as well as the interval between retries is configurable.
+- **Queue**: Wrapper over `amqplib` used to communicate with `RabbitMQ` to send messages to the builder during a compilation creation.
+- **WebSocket**: Server that list all the connected clients and broadcast messages during a compilation to provide real-time logs.
+- **Mailer**: Uses the `nodemailer` library to send invitation emails or reset password.
 
 # Conclusion
 
-Ce projet fût un challenge technique, organisationnel et un source d'apprentisage.
+This project was a technical and organizational challenge and a source of learning.
 
-Voir le projet sur github: [https://github.com/raven-os/build-raven-os-org](https://github.com/raven-os/build-raven-os-org){:target="_blank"}
+See project on github: [https://github.com/raven-os/build-raven-os-org](https://github.com/raven-os/build-raven-os-org){:target="_blank"}
