@@ -1,6 +1,7 @@
 ---
 lang: fr
 ref: raven-os
+date: 2020-02-26
 permalink: /fr/projects/raven-os
 title: "Raven-OS"
 excerpt: "Raven-OS est le projet EIP (**E**pitech **I**nnovative **P**roject) auquel j'ai participé lors de mes dernières années d'études à Epitech"

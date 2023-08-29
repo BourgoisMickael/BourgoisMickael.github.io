@@ -1,6 +1,7 @@
 ---
 lang: fr
 ref: aws-console-autofill-delete
+date: 2022-07-19
 permalink: /fr/projects/aws-console-autofill-delete
 title: "AWS Console autofill delete"
 excerpt: "Extension pour navigateur qui remplit automatiquement l'input de confirmation de suppression"
