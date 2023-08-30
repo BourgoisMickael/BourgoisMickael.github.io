@@ -5,8 +5,8 @@
     "email": "mickael.bourgois@epitech.eu",
     "website": "https://bourgoismickael.github.io",
     "location": {
-      "city": "Nancy",
-      "countryCode": "FR"
+      "city": "Luxembourg",
+      "countryCode": "LU"
     },
     "profiles": [
       {
@@ -28,9 +28,22 @@
   },
   "work": [
     {
+      "company": "ekonoo",
+      "position": "Backend Developer (Cloud)",
+      "location": "Luxembourg, LU",
+      "website": "https://ekonoo.com/",
+      "startDate": "2020-05-18",
+      "summary": "Development of a cloud native plateform for retirement and occupational pension plan.",
+      "highlights": [
+        "Development of serverless and event-driven micro-services.",
+        "Development of pyspark jobs for AWS Glue to consume a datalake.",
+        "Used tools: TypeScript, AWS, Lambda, SAM, DynamoDB, Athena, S3, SQS, Cognito, Step Functions, CloudFormation, Glue, Elasticsearch, Node.js"
+        ]
+    },
+    {
       "company": "PandaLab SAS",
-      "location": "Nancy",
-      "position": "Web developer",
+      "position": "Part-time web developer",
+      "location": "Nancy, FR",
       "website": "https://www.pandalab.fr/",
       "startDate": "2019-07-01",
       "endDate": "2020-02-28",
@@ -45,6 +58,7 @@
     {
       "company": "Epitech",
       "position": "C and C++ professor",
+      "location": "Nancy, FR",
       "website": "https://www.epitech.eu/",
       "startDate": "2019-10-01",
       "endDate": "2020-02-01",
@@ -55,7 +69,8 @@
     },
     {
       "company": "PandaLab SAS",
-      "position": "Web developer",
+      "position": "Internship web developer",
+      "location": "Nancy, FR",
       "website": "https://www.pandalab.fr/",
       "startDate": "2018-05-01",
       "endDate": "2018-10-01",
@@ -69,7 +84,8 @@
     },
     {
       "company": "BigInt",
-      "position": "Web development internship",
+      "position": "Part-time web developer",
+      "location": "Nancy, FR",
       "website": "https://bigint.fr/",
       "startDate": "2017-10-01",
       "endDate": "2018-03-01",
@@ -85,8 +101,8 @@
     },
     {
       "company": "Ezbeez",
-      "position": "Développeur web | Stage",
-      "website": "https://bigint.fr/",
+      "position": "Internship developer",
+      "location": "Metz, FR",
       "startDate": "2016-04-01",
       "endDate": "2016-06-01",
       "summary": "Implemented communication between multiple external services",
@@ -103,8 +119,9 @@
   "education": [
     {
       "institution": "Epitech",
-      "area": "Information Technology Expert",
-      "studyType": "Master (5 years diploma)",
+      "area": "Information Technologies Expert",
+      "studyType": "Master",
+      "location": "Paris, FR",
       "startDate": "2016-01-01",
       "endDate": "2020-01-01",
       "courses": []
@@ -113,6 +130,7 @@
       "institution": "California State University Long Beach",
       "area": "American Language Institute & Study Abroad",
       "studyType": "",
+      "location": "Long Beach, California, USA",
       "startDate": "2018-10-01",
       "endDate": "2019-06-01",
       "courses": [
@@ -125,9 +143,10 @@
       ]
     },
     {
-      "institution": "Université de Metz",
+      "institution": "University Institute of Technology of Metz",
       "area": "Computer Science",
-      "studyType": "DUT (2 years diploma)",
+      "location": "Metz, FR",
+      "studyType": "Associate's degree",
       "startDate": "2014-01-01",
       "endDate": "2016-01-01",
       "courses": []
@@ -145,7 +164,9 @@
         "DynamoDB",
         "Glue",
         "Cognito",
-        "S3"
+        "S3",
+        "Athena",
+        "Step Functions"
       ]
     },
     {

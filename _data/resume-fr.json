@@ -5,8 +5,8 @@
     "email": "mickael.bourgois@epitech.eu",
     "website": "https://bourgoismickael.github.io",
     "location": {
-      "city": "Nancy",
-      "countryCode": "FR"
+      "city": "Luxembourg",
+      "countryCode": "LU"
     },
     "profiles": [
       {
@@ -28,9 +28,22 @@
   },
   "work": [
     {
+      "company": "ekonoo",
+      "position": "Développeur Backend (Cloud)",
+      "location": "Luxembourg, LU",
+      "website": "https://ekonoo.com/",
+      "startDate": "2020-05-18",
+      "summary": "Développement d'une plateforme cloud native d'épargne salariale sur AWS.",
+      "highlights": [
+        "Développement de micro-services serverless et event-driven.",
+        "Développement de jobs pyspark sur AWS Glue pour consommer un datalake.",
+        "Outils utilisés: TypeScript, AWS, Lambda, SAM, DynamoDB, Athena, S3, SQS, Cognito, Step Functions, CloudFormation, Glue, Elasticsearch, Node.js"
+      ]
+    },
+    {
       "company": "PandaLab SAS",
-      "location": "Nancy",
-      "position": "Développeur web",
+      "position": "Part-time développeur web",
+      "location": "Nancy, FR",
       "website": "https://www.pandalab.fr/",
       "startDate": "2019-07-01",
       "endDate": "2020-02-28",
@@ -45,6 +58,7 @@
     {
       "company": "Epitech",
       "position": "Professeur de C et C++",
+      "location": "Nancy, FR",
       "website": "https://www.epitech.eu/",
       "startDate": "2019-10-01",
       "endDate": "2020-02-01",
@@ -55,7 +69,8 @@
     },
     {
       "company": "PandaLab SAS",
-      "position": "Développeur web",
+      "position": "Stage développeur web",
+      "location": "Nancy, FR",
       "website": "https://www.pandalab.fr/",
       "startDate": "2018-05-01",
       "endDate": "2018-10-01",
@@ -71,7 +86,8 @@
     },
     {
       "company": "BigInt",
-      "position": "Développeur web | Part-time",
+      "position": "Part-time développeur web",
+      "location": "Nancy, FR",
       "website": "https://bigint.fr/",
       "startDate": "2017-10-01",
       "endDate": "2018-03-01",
@@ -87,8 +103,8 @@
     },
     {
       "company": "Ezbeez",
-      "position": "Développeur web | Stage",
-      "website": "https://bigint.fr/",
+      "position": "Stage développeur",
+      "location": "Metz, FR",
       "startDate": "2016-04-01",
       "endDate": "2016-06-01",
       "summary": "Mission: Permettre à l'applicatif d'Ezbeez de communiquer avec ses services extérieurs",
@@ -98,7 +114,7 @@
         "Migration de données MongoDB pour mettre en place de la replication",
         "Gestion des appels entrants (ouverture automatique de la fiche client / formulaire d'ajout)",
         "Alimentation du CRM depuis le backend (gestionnaire de queue RabbitMQ)",
-        "Outils utilisés: Pentaho Data Integration, Go, PHP / Symfony, gestionnaire de queue RabbitMQ, MongoDB, Git, CRM"
+        "Outils utilisés: Go, PHP / Symfony, RabbitMQ, MongoDB, Git, CRM"
       ]
     }
   ],
@@ -107,6 +123,7 @@
       "institution": "Epitech",
       "area": "Expert en Technologies de l'Information",
       "studyType": "Master",
+      "location": "Paris, FR",
       "startDate": "2016-01-01",
       "endDate": "2020-01-01",
       "courses": []
@@ -115,6 +132,7 @@
       "institution": "California State University Long Beach",
       "area": "American Language Institute & Study Abroad",
       "studyType": "",
+      "location": "Long Beach, Californie, USA",
       "startDate": "2018-10-01",
       "endDate": "2019-06-01",
       "courses": [
@@ -127,9 +145,10 @@
       ]
     },
     {
-      "institution": "Université de Metz",
+      "institution": "IUT de Metz",
       "area": "Informatique",
       "studyType": "DUT",
+      "location": "Metz, FR",
       "startDate": "2014-01-01",
       "endDate": "2016-01-01",
       "courses": []
@@ -147,7 +166,9 @@
         "DynamoDB",
         "Glue",
         "Cognito",
-        "S3"
+        "S3",
+        "Athena",
+        "Step Functions"
       ]
     },
     {
