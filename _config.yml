@@ -86,9 +86,9 @@ author:
   location         : "Luxembourg"
   uri              : "https://bourgoismickael.github.io"
   email            : "mickael.bourgois@epitech.eu"
-  linkedin         : "https://www.linkedin.com/in/mickael-bourgois/"
-  github           : "https://github.com/BourgoisMickael"
-  gitlab           : "https://gitlab.com/mickael.bourgois"
+  linkedin         : "mickael-bourgois"
+  github           : "BourgoisMickael"
+  gitlab           : "mickael.bourgois"
 
 # Site Footer
 footer:
