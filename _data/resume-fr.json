@@ -37,7 +37,7 @@
       "highlights": [
         "Développement de micro-services serverless et event-driven.",
         "Développement de jobs pyspark sur AWS Glue pour consommer un datalake.",
-        "Outils utilisés: TypeScript, AWS, Lambda, SAM, DynamoDB, Athena, S3, SQS, Cognito, Step Functions, CloudFormation, Glue, Elasticsearch, Node.js"
+        "Outils utilisés: TypeScript, AWS, Lambda, SAM, DynamoDB, Athena, S3, SQS, Cognito, Step Functions, CloudFormation, Glue, Elasticsearch, Node.js, SQL"
       ]
     },
     {
