@@ -119,7 +119,7 @@
   "education": [
     {
       "institution": "Epitech",
-      "area": "Information Technologies Expert",
+      "area": "Graduate Diploma in Information Technology",
       "studyType": "Master",
       "location": "Paris, FR",
       "startDate": "2016-01-01",
@@ -187,7 +187,8 @@
         "Express.js",
         "Vue.js",
         "HTML",
-        "CSS"
+        "CSS",
+        "React.js"
       ]
     },
     {
@@ -204,8 +205,7 @@
       "keywords": [
         "Docker",
         "Ansible",
-        "Bash",
-        "Vagrant"
+        "Bash"
       ]
     },
     {

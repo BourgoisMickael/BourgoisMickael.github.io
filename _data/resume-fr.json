@@ -189,7 +189,8 @@
         "Express.js",
         "Vue.js",
         "HTML",
-        "CSS"
+        "CSS",
+        "React.js"
       ]
     },
     {
@@ -206,8 +207,7 @@
       "keywords": [
         "Docker",
         "Ansible",
-        "Bash",
-        "Vagrant"
+        "Bash"
       ]
     },
     {
