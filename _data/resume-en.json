@@ -35,8 +35,10 @@
       "startDate": "2020-05-18",
       "summary": "Development of a cloud native plateform for retirement and occupational pension plan.",
       "highlights": [
-        "Development of serverless and event-driven micro-services.",
-        "Development of pyspark jobs for AWS Glue to consume a datalake.",
+        "Development of serverless and event-driven micro-services in TypeScript.",
+        "Development of pyspark jobs for AWS Glue to consume a datalake and generate big reporting files.",
+        "Development of KYC (Know Your Customer) and AML (Anti Money Laundering) features.",
+        "The platform includes more than 70 micro-services, 30 APIs and 700 Lambdas.",
         "Used tools: TypeScript, AWS, Lambda, SAM, DynamoDB, Athena, S3, SQS, Cognito, Step Functions, CloudFormation, Glue, Elasticsearch, Node.js, SQL"
         ]
     },
